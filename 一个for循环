@@ -1,5 +1,13 @@
 sum = 0
+list=[]
 for i in range(1002):
-    sum =+ i
+    for j in range(2,i+1):
+        if j / i ==0:
+            break
+        else:
+            list.append(j)
+            sum =+ i
+        
+print(list)   
 print(sum)
     
